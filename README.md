@@ -1,6 +1,6 @@
 # Segment_red
 
-Aplicació per veure a quin segment de red estas donada una ip i un cidr
+Aplicació per veure a quin segment de red estàs donada una ip i un cidr
 
 exemple:
 
