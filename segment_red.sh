@@ -132,11 +132,12 @@ function calcular_broadcast(){
     done
 
     resultat_broadcast=$(IFS='.'; echo "${broadcast[*]}")
-    echo -e "${green}[+]${gray} BroadCast:${yellow} $resultat_broadcast${endColour}"
+    echo -e "${green}[+]${gray} BroadCast:${yellow} $resultat_broadcast${endColour}\n"
 
 }
 
 function calcularRang(){
+    clear
     hosts_cidr=$(calcular_hosts_cidr)
     clase=$(calcular_clase)
     echo -e "${green}\n[+]${gray} IP:${turquoise} $ip${endColour}\n"
