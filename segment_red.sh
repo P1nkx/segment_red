@@ -140,7 +140,7 @@ function calcularRang(){
     clear
     hosts_cidr=$(calcular_hosts_cidr)
     clase=$(calcular_clase)
-    echo -e "${green}\n[+]${gray} IP:${turquoise} $ip${endColour}\n"
+    echo -e "${green}\n[+]${gray} IP:${turquoise} $ip/$cidr${endColour}\n"
     echo -e "${green}[+]${gray} Clase:${blue} $clase${endColour}"
     echo -e "${green}[+]${gray} Hosts:${blue} $(($hosts_cidr-2))${endColour}"
     calcular_binari_ip
